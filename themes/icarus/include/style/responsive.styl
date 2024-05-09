@@ -1,19 +1,24 @@
 /* ---------------------------------
  *         Responsive Layout
  * --------------------------------- */
++desktop()
+    .is-1-column .container
+        max-width: $desktop - 4 * $gap
+        width: $desktop - 4 * $gap
+
 +widescreen()
-    .is-1-column .container, .is-2-column .container
-        max-width: $desktop - 2 * $gap
-        width: $desktop - 2 * $gap
+    .is-1-column .container
+        max-width: $widescreen - 4 * $gap
+        width: $widescreen - 4 * $gap
 
 +fullhd()
-    .is-2-column .container
-        max-width: $widescreen - 2 * $gap
-        width: $widescreen - 2 * $gap
-
     .is-1-column .container
-        max-width: $desktop - 2 * $gap
-        width: $desktop - 2 * $gap
+        max-width: $fullhd - 8 * $gap
+        width: $fullhd - 8 * $gap
+
+    .is-2-column .container, .is-3-column .container
+        max-width: $fullhd - 4 * $gap
+        width: $fullhd - 4 * $gap
 
 +tablet()
     .is-sticky

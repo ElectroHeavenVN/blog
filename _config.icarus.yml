@@ -105,10 +105,10 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Trang chủ: /
-        Lưu trữ: /archives
-        Thể loại: /categories
-        Tag: /tags
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
         About: /about
     # Links to be shown on the right of the navigation bar
     links:

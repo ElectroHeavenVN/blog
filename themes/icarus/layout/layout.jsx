@@ -25,9 +25,7 @@ module.exports = class extends Component {
                                 column: true,
                                 'order-2': true,
                                 'column-main': true,
-                                'is-12': columnCount === 1,
-                                'is-8-tablet is-8-desktop is-8-widescreen': columnCount === 2,
-                                'is-8-tablet is-8-desktop is-6-widescreen': columnCount === 3
+                                'is-8-tablet is-8-desktop is-9-widescreen': true
                             })} dangerouslySetInnerHTML={{ __html: body }}></div>
                             <Widgets site={site} config={config} helper={helper} page={page} position={'left'} />
                             <Widgets site={site} config={config} helper={helper} page={page} position={'right'} />

@@ -41,13 +41,13 @@ class Navbar extends Component {
 
         return <nav class="navbar navbar-main">
             <div class="container navbar-container">
-                <div class="navbar-brand justify-content-center">
-                    <a class="navbar-item navbar-logo" href={siteUrl}>
-                        {navbarLogo}
-                    </a>
-                </div>
                 <div class="navbar-menu">
                     {Object.keys(menu).length ? <div class="navbar-start">
+                        <div class="navbar-brand justify-content-center is-hidden-mobile">
+                            <a class="navbar-item navbar-logo" href={siteUrl}>
+                                {navbarLogo}
+                            </a>
+                        </div>
                         {Object.keys(menu).map(name => {
                             const item = menu[name];
                             return <a class={classname({ 'navbar-item': true, 'is-active': item.active })} href={item.url}>{name}</a>;

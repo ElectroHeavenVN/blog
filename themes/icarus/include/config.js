@@ -3,13 +3,11 @@ const fs = require('fs');
 const path = require('path');
 const util = require('util');
 const crypto = require('crypto');
-const createLogger = require('hexo-log');
+const logger = require('hexo-log')();
 const yaml = require('hexo-component-inferno/lib/util/yaml');
 const { Migrator } = require('hexo-component-inferno/lib/core/migrate');
 const { SchemaLoader } = require('hexo-component-inferno/lib/core/schema');
 const { yellow } = require('./util/console');
-
-const logger = createLogger.default();
 
 function loadThemeConfig(hexo, cfgPaths) {
     const configs = cfgPaths.map(cfgPath => fs.readFileSync(cfgPath))

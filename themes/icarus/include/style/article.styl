@@ -40,12 +40,20 @@ article
                 line-height: inherit
 
     &.article
+        .title
+            margin-left: -0.1rem
+            .fas
+                margin-right: 0.5rem
         .article-meta, .article-tags
             color: $text-light
 
         .article-meta
             overflow-x: auto
-            margin-bottom: .5rem
+            >:first-child
+                flex-wrap: wrap
+                width: 100%
+                >*
+                    flex-grow: 0 !important
 
         .article-more
             @extend .button.is-light
@@ -196,3 +204,10 @@ a
             flex-shrink: 1
             word-wrap: break-word
             white-space: normal
+
+.has-link-black-ter
+    transition: 0.2s ease
+.has-link-black-ter:hover 
+    color: #3273dc !important
+.has-link-black-ter 
+    color: #242424 !important

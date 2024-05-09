@@ -1,9 +1,7 @@
-const createLogger = require('hexo-log');
+const logger = require('hexo-log')();
 const { Component } = require('inferno');
 const view = require('hexo-component-inferno/lib/core/view');
 const classname = require('hexo-component-inferno/lib/util/classname');
-
-const logger = createLogger.default();
 
 function formatWidgets(widgets) {
     const result = {};
@@ -38,16 +36,6 @@ function getColumnCount(widgets, config, page) {
     return [hasColumn(widgets, 'left', config, page), hasColumn(widgets, 'right', config, page)].filter(v => !!v).length + 1;
 }
 
-function getColumnSizeClass(columnCount) {
-    switch (columnCount) {
-        case 2:
-            return 'is-4-tablet is-4-desktop is-4-widescreen';
-        case 3:
-            return 'is-4-tablet is-4-desktop is-3-widescreen';
-    }
-    return '';
-}
-
 function getColumnVisibilityClass(columnCount, position) {
     if (columnCount === 3 && position === 'right') {
         return 'is-hidden-touch is-hidden-desktop-only';
@@ -78,7 +66,7 @@ class Widgets extends Component {
         return <div class={classname({
             'column': true,
             ['column-' + position]: true,
-            [getColumnSizeClass(columnCount)]: true,
+            'is-4-tablet is-4-desktop is-3-widescreen': true,
             [getColumnVisibilityClass(columnCount, position)]: true,
             [getColumnOrderClass(position)]: true,
             'is-sticky': isColumnSticky(config, position)

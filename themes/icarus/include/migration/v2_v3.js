@@ -1,8 +1,6 @@
-const createLogger = require('hexo-log');
+const logger = require('hexo-log')();
 const deepmerge = require('deepmerge');
 const Migration = require('hexo-component-inferno/lib/core/migrate').Migration;
-
-const logger = createLogger.default();
 
 module.exports = class extends Migration {
     constructor() {
@@ -28,7 +26,7 @@ module.exports = class extends Migration {
             result.logo = result.logo.replace(/^\/images/, '/img');
         }
 
-        if (result.head.favicon === '/images/favicon.svg') {
+        if (result.head.favicon === '/img/favicon.svg') {
             result.head.favicon = result.head.favicon.replace(/^\/images/, '/img');
         }
 
