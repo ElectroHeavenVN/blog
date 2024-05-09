@@ -7,7 +7,7 @@ variant: default
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.jpg
+    favicon: /img/favicon.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -114,7 +114,7 @@ navbar:
     links:
         GitHub:
             icon: fab fa-github
-            url: https://github.com/wwh1004/
+            url: https://github.com/ElectroHeavenVN/
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -154,7 +154,7 @@ search:
 comment:
     type: disqus
     # Disqus shortname
-    shortname: 'wwh1004'
+    shortname: 'ehvn-blog'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -175,19 +175,19 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: wwh1004
+        author: ElectroHeavenVN
         # Author title
         # author_title: Your title
         # Author's current location
         # location: Your location
         # URL or path to the avatar image
-        avatar: /img/avatar.jpg
+        avatar: /img/avatar.png
         # # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
         # gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/wwh1004
+        follow_link: https://github.com/ElectroHeavenVN
         # Links to be shown on the bottom of the profile widget
         # social_links:
             # Github:
