@@ -1,7 +1,7 @@
 # Version of the configuration file
 version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: cyberpunk
+variant: default
 # Path or URL to the website's logo
 # logo: /img/logo.svg
 # Page metadata configurations
@@ -19,7 +19,7 @@ head:
         # The start URL of the web application
         start_url: 
         # The default theme color for the application
-        theme_color: 
+        theme_color: black
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
         background_color: 
