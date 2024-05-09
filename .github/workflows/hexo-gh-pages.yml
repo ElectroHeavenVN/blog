@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: 18
       - name: Set timezone
-        run: sudo timedatectl set-timezone "Asia/Shanghai"
+        run: sudo timedatectl set-timezone "Asia/Ho_Chi_Minh"
       - name: Install dependencies
         run: npm install
       - name: Build with Hexo
