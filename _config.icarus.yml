@@ -1,7 +1,7 @@
 # Version of the configuration file
 version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: default
+variant: cyberpunk
 # Path or URL to the website's logo
 # logo: /img/logo.svg
 # Page metadata configurations
@@ -217,6 +217,9 @@ widgets:
         amount: 
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
+    -
+        type: recent_posts
+        position: right
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
