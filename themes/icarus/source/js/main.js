@@ -20,6 +20,12 @@
         $('.justified-gallery').justifiedGallery();
     }
 
+    if (typeof moment === 'function') {
+        $('.article-meta time').each(function() {
+            $(this).text(moment($(this).attr('datetime')).fromNow());
+        });
+    }
+
     $('.article > .content > table').each(function() {
         if ($(this).width() > $(this).parent().width()) {
             $(this).wrap('<div class="table-overflow"></div>');
@@ -56,9 +62,9 @@
         $('figure.highlight').addClass('hljs');
         $('figure.highlight .code .line span').each(function() {
             const classes = $(this).attr('class').split(/\s+/);
-            if (classes.length === 1) {
-                $(this).addClass('hljs-' + classes[0]);
-                $(this).removeClass(classes[0]);
+            for (const cls of classes) {
+                $(this).addClass('hljs-' + cls);
+                $(this).removeClass(cls);
             }
         });
 
@@ -116,7 +122,6 @@
 
     const $toc = $('#toc');
     if ($toc.length > 0) {
-        $toc.addClass('column-left is-sticky');
         const $mask = $('<div>');
         $mask.attr('id', 'toc-mask');
 
