@@ -218,8 +218,8 @@ widgets:
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     -
-        type: recent_posts
         position: right
+        type: recent_posts
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:

@@ -7,7 +7,7 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: wwh1004
+        author: ElectroHeavenVN
         # Author title
         # author_title: Your title
         # Author's current location
@@ -19,7 +19,7 @@ widgets:
         # # Email address for the Gravatar
         # gravatar: 
         # URL or path for the follow button
-        follow_link: https://github.com/wwh1004
+        follow_link: https://github.com/ElectroHeavenVN
         # Links to be shown on the bottom of the profile widget
         # social_links:
             # Github:
