@@ -33,7 +33,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          check-latest: true
       - name: Set timezone
         run: sudo timedatectl set-timezone "Asia/Ho_Chi_Minh"
       - name: Install dependencies
