@@ -108,8 +108,8 @@ navbar:
         Trang chủ: /
         Lưu trữ: /archives
         Danh mục: /categories
-        Tags: /tags
-        Về blog: /about
+        Tag: /tags
+        About: /about
     # Links to be shown on the right of the navigation bar
     links:
         Xem mã nguồn trên GitHub:
@@ -272,7 +272,7 @@ widgets:
                 icon: fa-brands fa-soundcloud
                 url: https://soundcloud.com/electroheavenvn
             RSS:
-                icon: fas fa-rss
+                icon: fa-solid fa-square-rss
                 url: /feed.xml
     # Table of contents widget configurations
     -
