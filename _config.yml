@@ -75,6 +75,6 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: img/avatar.png
+  icon: img/avatar.jpg
   autodiscovery: true
   template:

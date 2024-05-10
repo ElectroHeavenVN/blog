@@ -235,7 +235,7 @@ widgets:
         # Author's current location
         location: Việt Nam
         # URL or path to the avatar image
-        avatar: /img/avatar.png
+        avatar: /img/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
