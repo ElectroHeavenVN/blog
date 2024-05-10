@@ -110,11 +110,11 @@ navbar:
         Danh mục: /categories
         Tag: /tags
         About: /about
-    # Links to be shown on the right of the navigation bar
-    links:
-        Xem mã nguồn trên GitHub:
-            icon: fab fa-github
-            url: https://github.com/ElectroHeavenVN/blog
+    # # Links to be shown on the right of the navigation bar
+    # links:
+    #     Xem mã nguồn trên GitHub:
+    #         icon: fab fa-github
+    #         url: https://github.com/ElectroHeavenVN/blog
 # Page footer configurations
 footer:
     # Copyright text
@@ -130,6 +130,9 @@ footer:
         Xem mã nguồn trên GitHub:
             icon: fab fa-github
             url: https://github.com/ElectroHeavenVN/blog
+        Google Doodle Champion Island 2021:
+            icon: img/kitsune21.png
+            url: https://www.google.com/logos/2020/kitsune/rc7/kitsune20.html
 # Article related configurations
 article:
     # Code highlight settings
@@ -292,8 +295,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            Nothing 2 see here: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -356,26 +358,26 @@ plugins:
     animejs: true
     # Show the "back to top" button
     back_to_top: true
-    # Baidu Analytics plugin settings
-    # https://tongji.baidu.com
-    baidu_analytics:
-        # Baidu Analytics tracking ID
-        tracking_id: 
-    # Bing Webmaster Tools plugin settings
-    # https://www.bing.com/toolbox/webmaster/
-    bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
-        tracking_id: 
-    # BuSuanZi site/page view counter
-    # https://busuanzi.ibruce.info
-    busuanzi: false
-    # CNZZ statistics
-    # https://www.umeng.com/web
-    cnzz:
-        # CNZZ tracker id
-        id: 
-        # CNZZ website id
-        web_id: 
+    # # Baidu Analytics plugin settings
+    # # https://tongji.baidu.com
+    # baidu_analytics:
+    #     # Baidu Analytics tracking ID
+    #     tracking_id: 
+    # # Bing Webmaster Tools plugin settings
+    # # https://www.bing.com/toolbox/webmaster/
+    # bing_webmaster:
+    #     # Bing Webmaster Tools tracking ID in the <meta> tag
+    #     tracking_id: 
+    # # BuSuanZi site/page view counter
+    # # https://busuanzi.ibruce.info
+    # busuanzi: false
+    # # CNZZ statistics
+    # # https://www.umeng.com/web
+    # cnzz:
+    #     # CNZZ tracker id
+    #     id: 
+    #     # CNZZ website id
+    #     web_id: 
     # Alerting users about the use of cookies
     # https://www.osano.com/cookieconsent/
     cookie_consent:
@@ -421,11 +423,11 @@ plugins:
         project: 
         # Statcounter project security code
         security: 
-    # Twitter conversion tracking plugin settings
-    # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
-    twitter_conversion_tracking:
-        # Twitter Pixel ID
-        pixel_id: 
+    # # Twitter conversion tracking plugin settings
+    # # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
+    # twitter_conversion_tracking:
+    #     # Twitter Pixel ID
+    #     pixel_id: 
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
