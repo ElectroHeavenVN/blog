@@ -78,3 +78,4 @@ feed:
   icon: img/avatar.jpg
   autodiscovery: true
   template:
+og_image: img/avatar.jpg
