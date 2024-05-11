@@ -75,7 +75,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: img/avatar.jpg
+  icon: https://electroheavenvn.github.io/blog/img/avatar.jpg
   autodiscovery: true
   template:
 og_image: ""
