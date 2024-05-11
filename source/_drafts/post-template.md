@@ -1,7 +1,7 @@
 ---
 title: post_template
-date: 10-05-2024
-updated: 11-05-2024
+date: 05-10-2024 17:26:00
+updated: 05-11-2024 17:26:00
 lang: vi
 categories:
 - [category1, category2]
