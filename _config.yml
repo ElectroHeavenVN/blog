@@ -6,7 +6,7 @@ author: ElectroHeavenVN
 language: vi
 timezone: Asia/Ho_Chi_Minh
 url: https://electroheavenvn.github.io/blog/
-permalink: ':year/:month/:day/:title/'
+permalink: ':title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true

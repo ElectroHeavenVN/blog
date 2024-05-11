@@ -1,7 +1,7 @@
 ---
-title: Hello Wrorld!
-date: 11-05-2024 17:26:00
-updated: 11-05-2024 17:26:00
+title: Hello World!
+date: 05-11-2024 17:26:00
+updated: 05-11-2024 17:26:00
 lang: vi
 toc: true
 ---
