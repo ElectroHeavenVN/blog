@@ -131,7 +131,7 @@ footer:
             icon: fab fa-github
             url: https://github.com/ElectroHeavenVN/blog
         Google Doodle Champion Island 2021:
-            icon: img/kitsune21.png
+            icon: https://electroheavenvn.github.io/blog/img/kitsune21.png
             url: https://www.google.com/logos/2020/kitsune/rc7/kitsune20.html
 # Article related configurations
 article:
