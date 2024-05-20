@@ -121,6 +121,9 @@ footer:
     ## copyright: © 2019
     # Links to be shown on the right of the footer section
     links:
+        RSS:
+            icon: fa-solid fa-square-rss
+            url: /feed.xml
         Giấy phép Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
@@ -274,9 +277,9 @@ widgets:
             SoundCloud:
                 icon: fa-brands fa-soundcloud
                 url: https://soundcloud.com/electroheavenvn
-            RSS:
-                icon: fa-solid fa-square-rss
-                url: /feed.xml
+            MyAnimeList:
+                icon: https://simpleicons.org/icons/myanimelist.svg
+                url: https://myanimelist.net/profile/ElectroHeavenVN
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
